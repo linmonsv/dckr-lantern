@@ -19,6 +19,4 @@ rm -rf ./lantern
 
 docker build --rm -t webdeskltd/lantern .
 
-rm ./lantern_linux_amd64
-
 if [ "${OsType}" == "darwin" ]; then docker-machine stop default; fi

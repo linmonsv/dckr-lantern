@@ -1,4 +1,4 @@
-# Latern 2.1.1 based on openSuse:tumbleweed
+# Latern 2.2.5 based on openSuse:tumbleweed
 -
 
 Run it:

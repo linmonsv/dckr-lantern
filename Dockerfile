@@ -10,4 +10,5 @@ COPY lantern_linux_amd64 /usr/bin/lantern
 RUN chmod +x /usr/bin/lantern
 
 EXPOSE 3128
-ENTRYPOINT ["/usr/bin/lantern", "-configdir=/root", "--headless=true", "--proxyall=true", "--startup=false", "--clear-proxy-settings=false", "--addr=0.0.0.0:3128", "--uiaddr=0.0.0.0:8080"]
+EXPOSE 16823
+ENTRYPOINT ["/usr/bin/lantern", "-configdir=/root", "--headless=true", "--proxyall=true", "--startup=false", "--clear-proxy-settings=false", "--addr=0.0.0.0:3128", "--uiaddr=0.0.0.0:16823"]

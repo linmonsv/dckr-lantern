@@ -1,5 +1,6 @@
 # Latern 2.2.5 based on openSuse:tumbleweed
 -
+[![](https://images.microbadger.com/badges/image/webdeskltd/lantern.svg)](https://microbadger.com/images/webdeskltd/lantern "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/webdeskltd/lantern.svg)](https://microbadger.com/images/webdeskltd/lantern "Get your own version badge on microbadger.com")
 
 Run it:
 
